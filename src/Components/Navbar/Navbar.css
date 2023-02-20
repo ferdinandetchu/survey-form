@@ -1,0 +1,26 @@
+/*=============== NAV ===============*/
+
+.card-header {
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(234, 91, 12, 1) 50%,
+		rgba(252, 176, 69, 1) 100%
+	);
+	padding: 50px;
+	color: white;
+}
+
+.nav {
+	display: flex;
+	width: 100%;
+	/*background: var(--main-blue);*/
+	/*box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);*/
+}
+  
+.nav img {
+	width: 250px;
+	padding: 5px;
+	margin-left: 20px;
+}
